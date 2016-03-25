@@ -5,6 +5,7 @@ Laravel configurado a mi necesidad básica
 .htaccess
 
 app.php
+
     Key
     Debug: true
     Timezone: 'America/Lima'
