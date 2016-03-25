@@ -1,4 +1,4 @@
-# Laravel PHP Framework
+# Laravel PHP Framework 5.2*
 
 Laravel configurado a mi necesidad básica
 
