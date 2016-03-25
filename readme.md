@@ -5,11 +5,11 @@ Laravel configurado a mi necesidad básica
 .htaccess
 
 app.php
-    * Key
-    * Debug: true
-    * Timezone: 'America/Lima'
-    * Lenguaje local : es
-    * Add files "es" in directory resources/lang
+    Key
+    Debug: true
+    Timezone: 'America/Lima'
+    Lenguaje local : es
+    Add files "es" in directory resources/lang
 
 Install / Config Laravel Collective
     "require": {
