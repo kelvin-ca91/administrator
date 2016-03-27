@@ -14,6 +14,7 @@ return [
     */
 
     'env' => env('APP_ENV', 'production'),
+    // 'env' => env('APP_ENV', 'developed'),
 
     /*
     |--------------------------------------------------------------------------
@@ -152,10 +153,10 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        Administrator\Providers\AppServiceProvider::class,
+        Administrator\Providers\AuthServiceProvider::class,
+        Administrator\Providers\EventServiceProvider::class,
+        Administrator\Providers\RouteServiceProvider::class,
 
         // Add Collective Html
         Collective\Html\HtmlServiceProvider::class,

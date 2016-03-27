@@ -14,7 +14,15 @@
 Route::group(['middleware' => ['web']], function () {
 
     Route::get('/', function () {
-        return view('welcome');
+        if(!Auth::user())
+            return view('layouts.login');
+        else
+            return view('layouts.master');
     });
 
+    Route::resource('log', 'LogController');
+
+    Route::resource('usuario', 'UsuarioController');
+
+    Route::get('logout', 'LogController@logout');
 });
